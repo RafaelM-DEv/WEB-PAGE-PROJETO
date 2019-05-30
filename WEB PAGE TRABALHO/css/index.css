@@ -1,0 +1,82 @@
+
+header {
+	height: 100px;
+}
+#principal{
+	clear: both;
+	background-color: white;
+	background-image: url(../img/index.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 130px 0 0 0;
+	min-height: 300px;	
+}
+
+#titulo{
+	color: white;
+	background-color: #ffffff;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: 'Oswald', sans-serif;
+	font-size:  75px;
+	padding-left: 40px;
+	text-align:left;
+	text-shadow: 0 0 1px white;
+}
+#texto{
+	color:white;
+	background-color: #ffffff;
+    background: rgba(0, 0, 0, 0.3);
+	font-family: 'Oswald', sans-serif;
+	font-size:  55px;
+	text-align: left;
+	padding-left: 35px;
+	text-shadow: 0 0 1px white;
+}
+
+#texto2 {
+	padding-top: 15px;
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	color: white;
+	display: inline;
+	position: static;
+}
+#texto2 p{
+	padding-top: 30px;
+	font-size: 50px;
+	text-align: center;
+}
+#vaga{float: left; padding: 30px 50px 10px 140px;}
+#vaga img{width: 100px;padding: 10px;}
+#vaga figcaption {text-align: center; font-size: 25px;}
+#tempo{float: left;padding: 30px 50px 10px 200px;}
+#tempo img{width: 100px;padding: 10px;}
+#tempo figcaption {text-align: center; font-size: 25px;}
+#Renove{float: left;padding: 30px 50px 10px 200px;}
+#Renove img{width: 100px;padding: 10px;}
+#Renove figcaption {text-align: center; font-size: 25px;}
+
+#Proto{
+	float: left;
+	padding-top: 60px;
+	padding-left: 130px;
+}
+#Proto img{
+	padding:0 30% 50% 20%;
+	position: static;
+
+}
+#textoProto p{
+	width: 50%;
+	float: right;
+	padding-top: 160px;
+	padding-right: 200px;
+	text-align: justify;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+

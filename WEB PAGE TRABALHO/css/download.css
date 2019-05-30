@@ -1,0 +1,35 @@
+#principal{
+
+clear: both;
+min-height: 400px;
+background-color: white;
+background-image: url(../img/business-man-checks-mobile.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#principal img{
+
+float: left;
+padding: 30px 0 30px 300px;
+
+}
+
+#botao img{
+
+padding-top: 150px;
+
+padding-left: 50px;
+
+width: 200px;
+}
+
+#texto{
+clear: both;
+}
+
+#transparente {
+background-color: #ffffff;
+background: rgba(0, 0, 0, 0.2);
+}
+
