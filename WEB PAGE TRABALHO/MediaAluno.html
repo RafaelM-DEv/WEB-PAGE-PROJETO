@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<script>
+		alert("Esse é um exercico feito em sala de aula para verificar se o aluno foi a provado ou não! ")
+		/*variaveis principais */
+		var n1 = prompt('Digite valor da P1:'); 
+		var n2 = prompt('Digite Valor da P2:');
+		var n3 = prompt('Digite o numero de aulas totais:');
+		var n4 = prompt('Digite o numero de faltas totais:');
+		/*variaveis de resposta*/
+		var r = 0;
+		var f = 0;
+		/*modificação de variaveis*/
+		n1 = parseInt(n1);
+		n2 = parseInt(n2);
+		n2 = parseInt(n3);
+		n2 = parseInt(n4);
+		/*operações*/
+		r=(n1+n2)/2;
+		f=(n3-n4)/100;
+
+		/*condições para o aluno ser aprovado:
+		se a média for maior ou igual a 6
+		se a frequência for menor que 20 */
+		document.write('P1 = '+ n1 +' ,'); 
+		document.write('P2 = '+ n2 +' , '); 
+		document.write('A Média é '+ r +' , ');
+		document.write('Número total de aulas '+ n3 +' , ');
+		document.write('Número de faltas '+ n4 +' ,');   
+		document.write('A frequência do Aluno é de  :' + f +' %.');
+		if (r >= 6 && f >= 0.75 ) {
+			document.write(' Aprovado');
+		}
+		else{document.write(' Reprovado');}
+
+		</script>
+
+</body>
+</html>

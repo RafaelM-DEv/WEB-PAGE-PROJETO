@@ -33,6 +33,13 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.52);
 	float: left;
 }
 
+#logoB{    
+    padding:20px 0px 20px 100px;
+	float: left;}
+#logoB img{
+	width: 100px;
+}
+
 #logo img{ 
 	width: 230px;
 
@@ -86,9 +93,11 @@ footer{
 }
 
 footer img{
-
 	float: right;
 	padding-right: 100px;
 	padding-top: 40px;
+}
 
+.botao{
+	padding-top: 20px;
 }

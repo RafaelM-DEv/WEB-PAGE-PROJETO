@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rotativo Área Azul</title>
+	<link rel="stylesheet" type="text/css" href="css/contato.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/outros.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="logoB">
+			<img src="img/desktop-icon.png">
+			</div>
+				<div id="menu">
+				<a href="index.html">HOME</a>
+				<a href="download.html">DOWNLOAD  </a>
+				<a href="contato.html">CONTATO  </a>
+				<a href="sobre.html">SOBRE</a>
+				<a href="Outrosapps.html">OUTROS SERVIÇOS</a>
+			</div>
+		</div>
+	</header>
+<div class='media'>
+<script>
+		alert("Esse é um exercício feito em sala de aula para verificar se o aluno foi a provado ou não! ")
+		/*variaveis principais */
+		var n1 = prompt('Digite valor da P1:'); 
+		var n2 = prompt('Digite Valor da P2:');
+		var n3 = prompt('Digite o numero de aulas totais:');
+		var n4 = prompt('Digite o numero de faltas totais:');
+		/*variaveis de resposta*/
+		var r = 0;
+		var f = 0;
+		/*modificação de variaveis*/
+		n1 = parseInt(n1);
+		n2 = parseInt(n2);
+		n2 = parseInt(n3);
+		n2 = parseInt(n4);
+		/*operações*/
+		r=(n1+n2)/2;
+		f=(n3-n4)/100;
+
+		/*condições para o aluno ser aprovado:
+		se a média for maior ou igual a 6
+		se a frequência for menor que 20 */
+		document.write('P1 = '+ n1 +' <br>'); 
+		document.write('P2 = '+ n2 +'  <br>'); 
+		document.write('A Média é '+ r +' <br> ');
+		document.write('Número total de aulas '+ n3 +' <br> ');
+		document.write('Número de faltas '+ n4 +' <br>');   
+		document.write('A frequência do Aluno é de  :' + f +' %.<br>');
+		if (r >= 6 && f >= 0.75 ) {
+			document.write(' Aprovado');
+		}
+		else{document.write(' <br> Situação: <font color = "red"> Reprovado </font>');}
+
+		</script>
+</div>
+<footer>
+
+<div id="linkpe">
+				<a href="index.html">HOME  </a><br>
+				<a href="download.html">DOWNLOAD  </a><br>
+				<a href="contato.html">CONTATO  </a><br>
+				<a href="sobre.html">SOBRE</a><br>
+</div>
+
+<div id="LogoMoura">
+	<img src="img/centro-universitario-moura-lacerda.png">
+</div>
+
+</footer>
+
+</body>
+</html>
